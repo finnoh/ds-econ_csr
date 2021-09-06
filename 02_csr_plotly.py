@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[19]:
-
-
-from IPython.display import HTML, display
-display(HTML(filename='../source/first_figure.html'))
-
-
-# In[21]:
+# In[32]:
 
 
 import plotly.graph_objects as go
@@ -38,7 +31,7 @@ fig = px.scatter(df_2007,
 fig.write_html('../source/first_figure.html', auto_open=False)
 
 
-# In[22]:
+# In[33]:
 
 
 from IPython.display import HTML, display
