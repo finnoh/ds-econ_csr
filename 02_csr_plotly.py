@@ -1,7 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+<<<<<<< HEAD
 # In[32]:
+=======
+# In[19]:
+
+
+from IPython.display import HTML, display
+display(HTML(filename='../source/first_figure.html'))
+
+
+# In[21]:
+>>>>>>> d72136ac96ed912ca26a15f50814f57fc9c6ed1b
 
 
 import plotly.graph_objects as go
@@ -31,7 +42,11 @@ fig = px.scatter(df_2007,
 fig.write_html('../source/first_figure.html', auto_open=False)
 
 
+<<<<<<< HEAD
 # In[33]:
+=======
+# In[22]:
+>>>>>>> d72136ac96ed912ca26a15f50814f57fc9c6ed1b
 
 
 from IPython.display import HTML, display
